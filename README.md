@@ -1,5 +1,5 @@
 <div style="display:flex; align-items:center; justify-content:center;">
-  <img src="profile.svg" alt="Cauê da Silva" style="width:100%; height:100%;"/>
+  <img src="profile.svg" alt="Arte" style="width:100%; height:100%;"/>
   
   # <Cauê/>
   
