@@ -66,6 +66,12 @@
           80%  { transform: translateY(200px) rotate(30deg); }
           100% { transform: translateY(-30px) rotate(0deg); }
         }
+
+        @media (prefers-color-scheme: dark) {
+          .line-art-container {
+            color: #fff;
+          }
+        }
       </style>
       <div class="line-art-container">
         <div class="center">
@@ -77,3 +83,4 @@
     </div>
   </foreignObject>
 </svg>
+
