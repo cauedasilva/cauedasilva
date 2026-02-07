@@ -1,7 +1,5 @@
 <div style="display:flex; align-items:center; justify-content:center;">
-    <a align="center>
-        <img src="profile.svg" alt="Arte" style="width: 100%; max-width: 900px;"/>
-    </a>
+    <img src="profile.svg" alt="Arte" style="width: 100%; max-width: 900px;"/>
 </div>
 # <Cauê/>
 
