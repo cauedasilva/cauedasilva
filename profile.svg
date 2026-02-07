@@ -1,11 +1,11 @@
-<svg viewBox="0 0 900 200" preserveAspectRatio="xMidYMid meet" style="max-width: 100%; height: auto;" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="900" height="200">
+<svg viewBox="0 0 900 300" preserveAspectRatio="xMidYMid meet" style="max-width: 100%; height: auto;" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="900" height="300">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
         .line-art-container {
           color: #000;  
           width: 898px;
-          height: 198px;
+          height: 298px;
           position: relative;
           left: 0;
           top: 0;
