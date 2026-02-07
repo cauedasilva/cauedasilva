@@ -1,7 +1,7 @@
 <div style="display:flex; align-items:center; justify-content:center;">
-    <p align="center>
+    <a align="center>
         <img src="profile.svg" alt="Arte" style="width: 100%; max-width: 900px;"/>
-    </p>
+    </a>
 </div>
 # <Cauê/>
 
