@@ -1,20 +1,19 @@
-<svg viewBox="0 0 200 300" width="200" height="300" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
+<svg viewBox="0 0 200 300" preserveAspectRatio="xMidYMid meet" style="max-width: 200px; height: auto;" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="200" height="300">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
-
         .line-art-container {
-             color: #000;  
-          width: 200px;
-          height: 300px;
+          color: #000;  
+          width: 198px;
+          height: 298px;
           position: relative;
           left: 0;
           top: 0;
-            overflow: hidden;
-        background: transparent;
-              border: 1px solid currentColor;
+          overflow: visible;
+          background: transparent;
+          border: 1px solid currentColor;
+          box-sizing: border-box;
         }
-
         .center {
           display: flex;
           align-items: center;
@@ -22,93 +21,52 @@
           width: 100%;
           height: 100%;
           position: relative;
+          overflow: hidden;
         }
-
         .line {
-              will-change: transform;
-            transform-origin: center center;
-            position: absolute;
-            overflow: hidden;
-            width: 200%;
-            height: 1px;
-            background: currentColor;            
-            border: none;
+          will-change: transform;
+          transform-origin: center center;
+          position: absolute;
+          overflow: hidden;
+          width: 200%;
+          height: 1px;
+          background: currentColor;            
+          border: none;
         }
-
         .line-vert {
-            animation: lineVertical 12s cubic-bezier(.22,1.17,.78,.35) infinite;
+          animation: lineVertical 12s cubic-bezier(.22,1.17,.78,.35) infinite;
         }
-
         .line-diag1 {
           animation: lineDiag1 12s cubic-bezier(.22,1.17,.78,.35) infinite;
         }
-
         .line-diag2 {
           animation: lineDiag2 12s cubic-bezier(.22,1.17,.78,.35) infinite;
         }
-
         @keyframes lineVertical {
-            00%   { transform: rotate(90deg) translateY(0); }
-  20%  { transform: rotate(90deg) translateY(50px); }
-  40%  { transform: rotate(90deg) translateY(-100px); }
-  60%  { transform: rotate(90deg) translateY(130px); }
-  80%  { transform: rotate(90deg) translateY(20px); }
-  100% { transform: rotate(90deg) translateY(0); }
+          0%   { transform: rotate(90deg) translateY(0); }
+          20%  { transform: rotate(90deg) translateY(50px); }
+          40%  { transform: rotate(90deg) translateY(-100px); }
+          60%  { transform: rotate(90deg) translateY(130px); }
+          80%  { transform: rotate(90deg) translateY(20px); }
+          100% { transform: rotate(90deg) translateY(0); }
         }
         @keyframes lineDiag1 {
-            0% {
-            transform: translateY(50px) rotate(0deg);
-            }
-            
-            20% {
-            transform: translateY(-100px) rotate(45deg);
-            }
-
-            40% {
-            transform: translateY(-100px) rotate(-45deg);
-            }
-
-            60% {
-            transform: translateY(160px) rotate(-20deg);
-            }
-
-            80% {
-            transform: translateY(-160px) rotate(20deg);
-            }
-
-            100% {
-            transform: translateY(50px) rotate(0deg);
-            }
+          0%   { transform: translateY(50px) rotate(0deg); }
+          20%  { transform: translateY(-100px) rotate(45deg); }
+          40%  { transform: translateY(-100px) rotate(-45deg); }
+          60%  { transform: translateY(160px) rotate(-20deg); }
+          80%  { transform: translateY(-160px) rotate(20deg); }
+          100% { transform: translateY(50px) rotate(0deg); }
         }
-
         @keyframes lineDiag2 {
-            0% {
-            transform: translateY(-30px) rotate(0deg);
-            }
-            
-            20% {
-            transform: translateY(80px) rotate(-65deg);
-            }
-
-            40% {
-            transform: translateY(80px) rotate(65deg);
-            }
-
-            60% {
-            transform: translateY(-200px) rotate(-35deg);
-            }
-
-            80% {
-            transform: translateY(200px) rotate(30deg);
-            }
-
-            100% {
-            transform: translateY(-30px) rotate(0deg);
-            }
+          0%   { transform: translateY(-30px) rotate(0deg); }
+          20%  { transform: translateY(80px) rotate(-65deg); }
+          40%  { transform: translateY(80px) rotate(65deg); }
+          60%  { transform: translateY(-200px) rotate(-35deg); }
+          80%  { transform: translateY(200px) rotate(30deg); }
+          100% { transform: translateY(-30px) rotate(0deg); }
         }
-
       </style>
-
       <div class="line-art-container">
         <div class="center">
           <div class="line line-vert"></div>
