@@ -1,6 +1,7 @@
 <div style="display:flex; align-items:center; justify-content:center;">
     <img src="profile.svg" alt="Arte" style="width: 100%; max-width: 900px;"/>
 </div>
+
 # <Cauê/>
 
 ## [linkedin.com/in/cauedasilva](https://www.linkedin.com/in/cauedasilva/)
